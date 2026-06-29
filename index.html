@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Laporan Kepolisian Online</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>SISTEM PELAPORAN KEPOLISIAN ONLINE</h1>
+<p>Layanan Pengaduan Masyarakat</p>
+
+<nav>
+<a href="index.html">Buat Laporan</a>
+<a href="data.html">Data Laporan</a>
+</nav>
+</header>
+
+<main>
+
+<section>
+<h2>Form Laporan</h2>
+
+<form id="formLaporan">
+
+<label>Nama Pelapor</label>
+<input type="text" id="nama" required>
+
+<label>No. Telepon</label>
+<input type="text" id="telepon" required>
+
+<label>Jenis Laporan</label>
+<select id="jenis" required>
+<option value=""></option>
+<option>Pencurian</option>
+<option>Penipuan</option>
+<option>Kecelakaan</option>
+<option>Kehilangan</option>
+<option>Pengaduan Umum</option>
+</select>
+
+<label>Lokasi Kejadian</label>
+<input type="text" id="lokasi" required>
+
+<label>Keterangan</label>
+<textarea id="keterangan" required></textarea>
+
+<button type="submit">Kirim Laporan</button>
+
+</form>
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Sistem Pelaporan Kepolisian Online</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
